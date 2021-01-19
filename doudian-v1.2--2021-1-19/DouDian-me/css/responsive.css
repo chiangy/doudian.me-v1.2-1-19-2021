@@ -1,0 +1,38 @@
+.container{
+    min-width:750px;
+}
+.content{
+    width:100%;
+    margin:0 auto;
+}
+.course{
+    width:49%;
+    float:left;
+}
+.all-course{
+    margin-bottom:1rem;
+}
+.course:nth-child(odd){
+    margin-right:2%;
+}
+@media screen and (min-width:1120px){
+    .container{
+        max-width:1120px;
+        margin:0 auto;
+    }
+    .content-wrapper{
+        padding:1%;
+    }
+    .course-list .course{
+        margin:0;
+        width:32%;
+        margin:.5%;
+    }
+    course-list .course{
+       
+
+        /* margin:1%; */
+
+    }
+   
+}

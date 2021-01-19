@@ -1,0 +1,85 @@
+@media all and (min-width: 500px) {
+  html {
+    font-size: 16px;
+  }
+}
+.header {
+  width: 100%;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.header .logo {
+  font-size: 0.8rem;
+  position: absolute;
+  color: #fff;
+  background-color: #255660;
+  width: 4.8rem;
+  height: 1.7rem;
+  text-align: center;
+  line-height: 1.7rem;
+  top: 1.2rem;
+}
+.header .site-title {
+  text-align: center;
+  margin-top: 2%;
+  padding-top: 1.6rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.header .head-line {
+  height: 0.15rem;
+  background-color: #255660;
+  margin-bottom: 1.5rem;
+}
+.content-wrapper {
+  width: auto;
+  padding: 1% 3%;
+  margin: 0 auto;
+}
+.content-wrapper .slogan {
+  font-size: 1rem;
+}
+.content-wrapper .course {
+  background-color: #efefef;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.content-wrapper .course-title {
+  font-weight: bold;
+  padding: 1.5rem 1rem;
+}
+.content-wrapper .lesson-list {
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  width: 85%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.content-wrapper .lesson-list .lesson {
+  height: 2rem;
+  line-height: 2rem;
+  width: 100%;
+}
+.content-wrapper .lesson-list .more {
+  font-weight: bold;
+  padding: 0.7rem;
+}
+.myVideo {
+  margin: 3% 0;
+  border-top: 0.6rem solid #999;
+  padding: 1rem;
+  background-color: #eee;
+}
+.myVideo h2 {
+  font-size: 1.1rem;
+  padding: 1rem 0;
+}
+.myVideo ul li {
+  padding: 1rem;
+}
+.myVideo .note {
+  font-weight: bold;
+}
+/*# sourceMappingURL=./index.css.map */
